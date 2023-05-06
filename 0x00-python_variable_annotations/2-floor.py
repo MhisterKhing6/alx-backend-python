@@ -12,4 +12,4 @@ def floor(a: float) -> int:
         a : value to return the floor
     return float
     """
-    return int (math.floor(a))
+    return int(math.floor(a))
