@@ -4,11 +4,11 @@
 Write a function that run multiiple caro rutines in parallel
 '''
 import asyncio
-import random
+from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-async def wait_n(number: int, max_delay: int = 10) -> list:
+async def wait_n(number: int, max_delay: int = 10) -> List[float]:
     """
     wait_n : runs multiple caro rutines in parallel
     Arguements:
