@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """Implementin async comprehension"""
 import asyncio
 from typing import Iterable
